@@ -4,13 +4,18 @@
 /* --------------------------------------
    Layout
    -------------------------------------- */
-
+   #head{
+      background:#efeded;
+   }
 
 
 /* --------------------------------------
    Typography
    -------------------------------------- */
-
+   .glyphicon{
+      margin-right: 10px;
+      margin-left: 10px;
+   }
 
 
 /* --------------------------------------
@@ -22,6 +27,36 @@
 /* --------------------------------------
    Carousel
    -------------------------------------- */
+  #myCarousel {
+   margin-top: 60px;
+   margin-right:-50px;
+}
+
+#try{
+   margin-left: -50px;
+}
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+   background: url('../../images/background.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/background.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/background.jpg') top center no-repeat;
+}
 
 
 
